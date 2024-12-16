@@ -1,0 +1,9 @@
+@WolverineOrdering.OrderApi_HostAddress = http://localhost:5089
+
+POST {{WolverineOrdering.OrderApi_HostAddress}}/orders
+Accept: application/json
+Content-Type: application/json
+
+{}
+
+###
